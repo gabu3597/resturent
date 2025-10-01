@@ -76,7 +76,7 @@ const Hero: React.FC = () => {
           <div className="col-lg-6 text-center text-lg-end overflow-hidden">
             <motion.img 
               className="img-fluid" 
-              src="../../assets/hero.png" 
+              src="/img/hero.png" 
               alt="Hero"
               initial={{ opacity: 0, scale: 1.1 }}
               animate={{ opacity: 1, scale: 1 }}

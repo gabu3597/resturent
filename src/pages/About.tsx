@@ -79,7 +79,7 @@ const About: React.FC = () => {
                   >
                     <motion.img
                       className={`img-fluid rounded ${img.classes}`}
-                      src={`../assets/${img.src}`}
+                      src={`/img/${img.src}`}
                       alt={`About ${index + 1}`}
                       style={img.style}
                       whileHover={{ 
@@ -338,7 +338,7 @@ const About: React.FC = () => {
                   <div className="rounded-circle overflow-hidden m-4">
                     <motion.img
                       className="img-fluid"
-                      src={`../assets/team-${member.id}.jpg`}
+                      src={`/img/team-${member.id}.jpg`}
                       alt={member.name}
                       whileHover={{ 
                         scale: 1.1,

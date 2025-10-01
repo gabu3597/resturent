@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 const Team: React.FC = () => {
   const teamMembers = [
-    { name: 'Full Name', designation: 'Designation', image: '../assets/team-1.jpg' },
-    { name: 'Full Name', designation: 'Designation', image: '../assets/team-2.jpg' },
-    { name: 'Full Name', designation: 'Designation', image: '../assets/team-3.jpg' },
-    { name: 'Full Name', designation: 'Designation', image: '../assets/team-4.jpg' }
+    { name: 'Full Name', designation: 'Designation', image: '/img/team-1.jpg' },
+    { name: 'Full Name', designation: 'Designation', image: '/img/team-2.jpg' },
+    { name: 'Full Name', designation: 'Designation', image: '/img/team-3.jpg' },
+    { name: 'Full Name', designation: 'Designation', image: '/img/team-4.jpg' }
   ];
 
   return (

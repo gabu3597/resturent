@@ -6,25 +6,25 @@ const Testimonial: React.FC = () => {
     {
       name: 'Client Name',
       profession: 'Profession',
-      image: '../assets/testimonial-1.jpg',
+      image: '/img/testimonial-1.jpg',
       text: 'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam'
     },
     {
       name: 'Client Name',
       profession: 'Profession',
-      image: '../assets/testimonial-2.jpg',
+      image: '/img/testimonial-2.jpg',
       text: 'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam'
     },
     {
       name: 'Client Name',
       profession: 'Profession',
-      image: '../assets/testimonial-3.jpg',
+      image: '/img/testimonial-3.jpg',
       text: 'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam'
     },
     {
       name: 'Client Name',
       profession: 'Profession',
-      image: '../assets/testimonial-4.jpg',
+      image: '/img/testimonial-4.jpg',
       text: 'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam'
     }
   ];
