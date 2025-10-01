@@ -10,10 +10,10 @@ const About: React.FC = () => {
   const isInView = useInView(counterRef, { once: true });
 
   const images = [
-    { src: "/img/about-1.jpg", delay: 0.1, classes: "w-100", alignment: "text-start" },
-    { src: "/img/about-2.jpg", delay: 0.3, classes: "w-75", alignment: "text-start", style: { marginTop: '25%' } },
-    { src: "/img/about-3.jpg", delay: 0.5, classes: "w-75", alignment: "text-end" },
-    { src: "/img/about-4.jpg", delay: 0.7, classes: "w-100", alignment: "text-end" }
+    { src: "../img/about-1.jpg", delay: 0.1, classes: "w-100", alignment: "text-start" },
+    { src: "../img/about-2.jpg", delay: 0.3, classes: "w-75", alignment: "text-start", style: { marginTop: '25%' } },
+    { src: "../img/about-3.jpg", delay: 0.5, classes: "w-75", alignment: "text-end" },
+    { src: "../img/about-4.jpg", delay: 0.7, classes: "w-100", alignment: "text-end" }
   ];
 
   // Counter animation effect

@@ -6,20 +6,20 @@ const MenuPreview: React.FC = () => {
 
   const menuItems = {
     breakfast: [
-      { name: 'Chicken Burger', price: '$115', image: '/img/menu-1.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
-      { name: 'Chicken Burger', price: '$115', image: '/img/menu-2.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
-      { name: 'Chicken Burger', price: '$115', image: '/img/menu-3.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
-      { name: 'Chicken Burger', price: '$115', image: '/img/menu-4.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
-      { name: 'Chicken Burger', price: '$115', image: '/img/menu-5.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
-      { name: 'Chicken Burger', price: '$115', image: '/img/menu-6.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' }
+      { name: 'Chicken Burger', price: '$115', image: '../img/menu-1.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
+      { name: 'Chicken Burger', price: '$115', image: '../img/menu-2.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
+      { name: 'Chicken Burger', price: '$115', image: '../img/menu-3.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
+      { name: 'Chicken Burger', price: '$115', image: '../img/menu-4.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
+      { name: 'Chicken Burger', price: '$115', image: '../img/menu-5.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
+      { name: 'Chicken Burger', price: '$115', image: '../img/menu-6.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' }
     ],
     lunch: [
-      { name: 'Grilled Steak', price: '$125', image: '/img/menu-7.jpg', description: 'Delicious grilled steak with special sauce' },
-      { name: 'Fish Fillet', price: '$120', image: '/img/menu-8.jpg', description: 'Fresh fish fillet with herbs and spices' }
+      { name: 'Grilled Steak', price: '$125', image: '../img/menu-7.jpg', description: 'Delicious grilled steak with special sauce' },
+      { name: 'Fish Fillet', price: '$120', image: '../img/menu-8.jpg', description: 'Fresh fish fillet with herbs and spices' }
     ],
     dinner: [
-      { name: 'Beef Roast', price: '$135', image: '/img/menu-1.jpg', description: 'Tender beef roast with vegetables' },
-      { name: 'Lamb Chops', price: '$140', image: '/img/menu-2.jpg', description: 'Juicy lamb chops with mint sauce' }
+      { name: 'Beef Roast', price: '$135', image: '../img/menu-1.jpg', description: 'Tender beef roast with vegetables' },
+      { name: 'Lamb Chops', price: '$140', image: '../img/menu-2.jpg', description: 'Juicy lamb chops with mint sauce' }
     ]
   };
 

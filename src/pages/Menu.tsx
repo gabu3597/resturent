@@ -6,30 +6,30 @@ const Menu: React.FC = () => {
 
   const menuItems = {
     breakfast: [
-      { name: 'Chicken Burger', price: '$115', image: '/img/menu-1.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
-      { name: 'Chicken Burger', price: '$115', image: '/img/menu-2.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
-      { name: 'Chicken Burger', price: '$115', image: '/img/menu-3.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
-      { name: 'Chicken Burger', price: '$115', image: '/img/menu-4.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
-      { name: 'Chicken Burger', price: '$115', image: '/img/menu-5.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
-      { name: 'Chicken Burger', price: '$115', image: '/img/menu-6.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
-      { name: 'Chicken Burger', price: '$115', image: '/img/menu-7.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
-      { name: 'Chicken Burger', price: '$115', image: '/img/menu-8.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' }
+      { name: 'Chicken Burger', price: '$115', image: '../img/menu-1.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
+      { name: 'Chicken Burger', price: '$115', image: '../img/menu-2.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
+      { name: 'Chicken Burger', price: '$115', image: '../img/menu-3.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
+      { name: 'Chicken Burger', price: '$115', image: '../img/menu-4.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
+      { name: 'Chicken Burger', price: '$115', image: '../img/menu-5.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
+      { name: 'Chicken Burger', price: '$115', image: '../img/menu-6.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
+      { name: 'Chicken Burger', price: '$115', image: '../img/menu-7.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' },
+      { name: 'Chicken Burger', price: '$115', image: '../img/menu-8.jpg', description: 'Ipsum ipsum clita erat amet dolor justo diam' }
     ],
     lunch: [
-      { name: 'Grilled Steak', price: '$125', image: '/img/menu-1.jpg', description: 'Delicious grilled steak with special sauce' },
-      { name: 'Fish Fillet', price: '$120', image: '/img/menu-2.jpg', description: 'Fresh fish fillet with herbs and spices' },
-      { name: 'Pasta Special', price: '$110', image: '/img/menu-3.jpg', description: 'Homemade pasta with rich tomato sauce' },
-      { name: 'Chicken Caesar', price: '$105', image: '/img/menu-4.jpg', description: 'Classic caesar salad with grilled chicken' },
-      { name: 'Beef Sandwich', price: '$115', image: '/img/menu-5.jpg', description: 'Tender beef sandwich with fresh vegetables' },
-      { name: 'Seafood Platter', price: '$135', image: '/img/menu-6.jpg', description: 'Mixed seafood with special seasoning' }
+      { name: 'Grilled Steak', price: '$125', image: '../img/menu-1.jpg', description: 'Delicious grilled steak with special sauce' },
+      { name: 'Fish Fillet', price: '$120', image: '../img/menu-2.jpg', description: 'Fresh fish fillet with herbs and spices' },
+      { name: 'Pasta Special', price: '$110', image: '../img/menu-3.jpg', description: 'Homemade pasta with rich tomato sauce' },
+      { name: 'Chicken Caesar', price: '$105', image: '../img/menu-4.jpg', description: 'Classic caesar salad with grilled chicken' },
+      { name: 'Beef Sandwich', price: '$115', image: '../img/menu-5.jpg', description: 'Tender beef sandwich with fresh vegetables' },
+      { name: 'Seafood Platter', price: '$135', image: '../img/menu-6.jpg', description: 'Mixed seafood with special seasoning' }
     ],
     dinner: [
-      { name: 'Beef Roast', price: '$135', image: '/img/menu-7.jpg', description: 'Tender beef roast with vegetables' },
-      { name: 'Lamb Chops', price: '$140', image: '/img/menu-8.jpg', description: 'Juicy lamb chops with mint sauce' },
-      { name: 'Lobster Thermidor', price: '$155', image: '/img/menu-1.jpg', description: 'Fresh lobster in creamy sauce' },
-      { name: 'Duck Confit', price: '$145', image: '/img/menu-2.jpg', description: 'Slow-cooked duck with orange glaze' },
-      { name: 'Wagyu Steak', price: '$165', image: '/img/menu-3.jpg', description: 'Premium wagyu beef cooked to perfection' },
-      { name: 'Salmon Teriyaki', price: '$125', image: '/img/menu-4.jpg', description: 'Grilled salmon with teriyaki sauce' }
+      { name: 'Beef Roast', price: '$135', image: '../img/menu-7.jpg', description: 'Tender beef roast with vegetables' },
+      { name: 'Lamb Chops', price: '$140', image: '../img/menu-8.jpg', description: 'Juicy lamb chops with mint sauce' },
+      { name: 'Lobster Thermidor', price: '$155', image: '../img/menu-1.jpg', description: 'Fresh lobster in creamy sauce' },
+      { name: 'Duck Confit', price: '$145', image: '../img/menu-2.jpg', description: 'Slow-cooked duck with orange glaze' },
+      { name: 'Wagyu Steak', price: '$165', image: '../img/menu-3.jpg', description: 'Premium wagyu beef cooked to perfection' },
+      { name: 'Salmon Teriyaki', price: '$125', image: '../img/menu-4.jpg', description: 'Grilled salmon with teriyaki sauce' }
     ]
   };
 
