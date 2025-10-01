@@ -79,7 +79,7 @@ const About: React.FC = () => {
                   >
                     <motion.img
                       className={`img-fluid rounded ${img.classes}`}
-                      src={`../img/${img.src}`}
+                      src={`./img/${img.src}`}
                       alt={`About ${index + 1}`}
                       style={img.style}
                       whileHover={{ 
